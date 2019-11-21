@@ -22,13 +22,18 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto;
+  height: 600px;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
-
+.parallax-container .section {
+  width: 100%;
+}
+.carousel {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  transform: translateY(-150px);
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;

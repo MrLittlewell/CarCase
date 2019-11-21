@@ -3485,15 +3485,11 @@ table span.badge {
 }
 
 @media only screen and (min-width: 601px) {
-  .container {
-    width: 85%;
-  }
+  
 }
 
 @media only screen and (min-width: 993px) {
-  .container {
-    width: 70%;
-  }
+  
 }
 
 .col .row {
