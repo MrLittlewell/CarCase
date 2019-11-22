@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+* {
+  outline: none;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -23,22 +26,46 @@ p {
   min-height: 380px;
   line-height: 0;
   height: 600px;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
+
 .parallax-container .section {
   width: 100%;
 }
+
 .carousel {
-  height: 500px;
+  height: 580px;
   display: flex;
   align-items: center;
-  transform: translateY(-150px);
 }
+
+
+.slider-item h2 {
+  margin: 5px 0;
+  font-size: 26px;
+}
+
+.slider-item img {
+  max-height: 285px;
+  margin: 0 auto 30px;
+}
+
+.slider-item a {
+  color: white;
+  background: #dd4a38;
+  padding: 10px 20px;
+  border-radius: 5px;
+  line-height: initial;
+}
+
+.slick-slide {}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -53,6 +80,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }

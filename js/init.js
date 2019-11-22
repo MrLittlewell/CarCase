@@ -1,12 +1,14 @@
-(function($){
-  $(function(){
+(function ($) {
+  $(function () {
 
     $('.sidenav').sidenav();
     $('.parallax').parallax();
-    $('.carousel').carousel({
-      dist: -50,
-      numVisible: 3,
-      shift: 100
+    $('.modal').modal();
+    $('.slider').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 200000,
     });
 
   }); // end of document ready
