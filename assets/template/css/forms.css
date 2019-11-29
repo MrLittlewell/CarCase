@@ -1,0 +1,288 @@
+.input-main{
+    display: block;
+    width: 100%;
+    padding: 13px 10px 13px 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    border: 0;
+    border-radius: 4px;
+    outline: 0;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+input.error {
+    box-shadow: inset 0 0 0 2px #ff0000;
+}
+.input-main {
+    display: inline-block;
+    width: 274px;
+    margin-right: 42px;
+    padding: 2px 10px 16px 19px;
+    font: 16px / 18px Ubuntu;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 2px solid #ffffff;
+    vertical-align: top;
+}
+input.input-main::-moz-placeholder {
+    font: italic 16px / 18px Ubuntu;
+    color: #ffffff;
+}
+input.input-main::-webkit-input-placeholder {
+    font: italic 16px / 18px Ubuntu;
+    color: #ffffff;
+}
+.input-type-normal {width: 285px;
+    margin-bottom: 7px;
+    margin-right: 20px;
+    padding: 15px 9px;
+    font: 16px / 18px Ubuntu;
+    color: #2a292e;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    vertical-align: top;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.input-type-normal input::-moz-placeholder {
+    font: italic 16px / 18px Ubuntu;
+    color: #9794a5;
+}
+.input-type-normal input::-webkit-input-placeholder {
+    font: italic 16px / 18px Ubuntu;
+    color: #9794a5;
+}
+.row input[type="text"],
+.row  input[type="tel"],
+.row  input[type="email"] {
+    width: 100% !important;
+}
+.row .btn {
+    width: 100% !important;
+    text-align: center;
+}
+.input-color-grey {
+    width: 100%;
+    color: #2a292e;
+    background-color: #e4e3ec;
+}
+.input-color-grey ::-moz-placeholder {
+    font: italic 16px / 18px Ubuntu;
+    color: #2a292e;
+}
+.input-color-grey ::-webkit-input-placeholder {
+    font: italic 16px / 18px Ubuntu;
+    color: #2a292e;
+}
+.form-wide input {
+    width: 100%;
+}
+.form-wide .btn {
+    text-align: center;
+    width: 100%;
+}
+
+/* SELECT */
+.dropcontainer {
+	position:relative;
+	font-size: 16px;
+	color: #777;
+} 
+.select_ajax .trigger,
+.select_ajax .activetrigger {
+    display: block;
+    width: 286px;
+    padding: 15px;
+    font: 400 16px / 18px Ubuntu;
+	color: #ffffff;
+	background: #201f23 url("../png/arrow-down.png") 95% center no-repeat;
+	vertical-align: middle;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid transparent;
+    outline: 0;
+    cursor: pointer;
+    white-space: normal;
+    transition: all 0.2s ease-in-out;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.ajax_model .trigger,
+.ajax_model .activetrigger,
+.ajax_type .trigger,
+.ajax_type .activetrigger {
+    display: block;
+    width: 286px;
+    padding: 15px;
+    font: 400 16px / 18px Ubuntu;
+	color: #5A5A5A;
+    background-color: rgba(32, 31, 35, 0.43);
+	vertical-align: middle;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid transparent;
+    outline: 0;
+    cursor: no-drop;
+    white-space: normal;
+    transition: all 0.2s ease-in-out;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.ajax_model .trigger.active,
+.ajax_model .activetrigger.active,
+.ajax_type .trigger.active,
+.ajax_type .activetrigger.active {
+	color: #ffffff;
+    background: #201f23 url("../png/arrow-down.png") 95% center no-repeat;
+    cursor: pointer;
+}
+
+.ajax_model .dropcontainer,
+.ajax_type .dropcontainer {
+    display: none;
+}
+.ajax_model .trigger.active + .dropcontainer,
+.ajax_model .activetrigger.active + .dropcontainer,
+.ajax_type .trigger.active + .dropcontainer,
+.ajax_type .activetrigger.active + .dropcontainer{
+    display: block;
+}
+.trigger:hover,
+.activetrigger:hover {
+	background-color: #464451;
+}
+.dropcontainer {
+    position: relative;
+}
+.dropcontainer ul {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 286px;
+    min-height: 100px;
+    padding: 15px;
+    font: 400 16px / 18px Ubuntu;
+	color: #ffffff;
+	background-color: #201f23;
+    text-align: left;
+    border: 1px solid transparent;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+	z-index: 100;
+    max-height: 300px;
+    overflow: auto;
+}
+.dropcontainer ul li {
+    padding: 6px 0;
+	-webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+}
+.dropcontainer ul li p {
+    font: 400 16px / 24px Ubuntu;
+	-webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+}
+.dropcontainer ul li:hover {
+	outline: none;
+}
+.dropcontainer ul li:hover p {
+	color: #db4938;
+}/*
+.dropcontainer ul li:first-child {
+	display: none;
+}*/
+
+.list_on {
+    display: block!important;
+}
+
+/* RADIO BUTTONS */
+input[type="radio"].circle-bg {
+    -webkit-appearance: none;
+    width: 46px;
+    height: 46px;
+    margin: 0 17px 0 0;
+    outline: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: 46px 46px;
+}
+.form-step-2 input[type="radio"].circle-bg {
+    margin-right: 8px;
+    margin-bottom: 6px;
+    background-position: 0 0;
+}
+input[type="radio"] {
+    border-radius: 100%;
+}
+input[type="radio"].circle-bg:checked:before {
+    content: "";
+    display: block;
+    border: 4px solid #ffffff;
+    border-radius: 100%;
+    width: 46px;
+    height: 46px;
+    pointer-events: none;
+}
+input[type="radio"].normal-red {
+    -webkit-appearance: none;
+    width: 29px;
+    height: 29px;
+    margin: 0 9px 0 0;
+    outline: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: #201f23;
+    border: 1px solid transparent;
+    vertical-align: middle;
+}
+input[type="radio"].normal-red:hover {
+    border: 1px solid #db4938;
+}
+input[type="radio"].normal-red:checked {
+    border: 1px solid #db4938;
+}
+input[type="radio"].normal-red:checked:before {
+    content: "";
+    display: block;
+    margin: 7px;
+    width: 13px;
+    height: 13px;
+    pointer-events: none;
+    background-color: #db4938;
+    border-radius: 100%;
+}
+
+/* CHECKBOXES */
+input[type="checkbox"] {
+    opacity: 0;
+    width: 21px;
+    height: 20px;
+    margin: 0;
+    top: 5px;
+    position: relative;
+}
+
+input[type="checkbox"] + label {
+    min-height: 20px;
+    display: inline-block;
+    margin-left: -20px;
+    padding: 0 0 0 30px;
+    background: url('https://farm6.staticflickr.com/5473/14456833654_c21aa3a2c3_o.png') no-repeat 0 0;
+}
+
+input[type="checkbox"]:checked + label {
+    background-position: 0 -20px;
+}

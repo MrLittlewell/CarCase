@@ -1,0 +1,257 @@
+.icon-text-row {
+    display: table-row;
+}
+.icon-text-row:before,
+.icon-text-row:after {
+    display: table;
+}
+.icon-text-row:after {
+    clear: both;
+}
+.icon-text-row-centered {
+    display: table;
+    margin: 0 auto;
+}
+.icon-cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.text-cell {
+    display: table-cell;
+    padding-left: 9px;
+    vertical-align: middle;
+}
+.text-cell .title {
+    display: block;
+    margin-bottom: 10px;
+    font: 300 22px / 28px Ubuntu;
+}
+.text-cell .info {
+    display: block;
+    font: 300 16px / 20px Ubuntu;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon-mts {
+    width: 15px;
+    height: 16px;
+    background: url(../png/icon-mts.png) 0 0 no-repeat;
+    background-size: 15px 16px;
+}
+.icon-bee {
+    width: 21px;
+    height: 16px;
+    background: url(../png/icon-bee.png) 0 0 no-repeat;
+    background-size: 21px 16px;
+}
+.icon-phone {
+    width: 23px;
+    height: 25px;
+    background: url(../png/icon-phone.png) 0 0 no-repeat;
+    background-size: 23px 25px;
+}
+.icon-dollar {
+    width: 37px;
+    height: 48px;
+    background: url(../png/icon-dollar.png) 0 0 no-repeat;
+    background-size: 37px 48px;
+}
+.icon-checkmark {
+    width: 46px;
+    height: 42px;
+    background: url(../png/icon-checkmark.png) 0 0 no-repeat;
+    background-size: 46px 42px;
+}
+.icon-car {
+    width: 54px;
+    height: 46px;
+    background: url(../png/icon-car.png) 0 0 no-repeat;
+    background-size: 54px 46px;
+}
+.icon-cart {
+    width: 69px;
+    height: 61px;
+    background: url(../png/icon-cart.png) 0 0 no-repeat;
+    background-size: 69px 61px;
+}
+.icon-check {
+    width: 70px;
+    height: 69px;
+    background: url(../png/icon-check.png) 0 0 no-repeat;
+    background-size: 70px 69px;
+}
+.icon-scissors {
+    width: 56px;
+    height: 67px;
+    background: url(../png/icon-scissors.png) 0 0 no-repeat;
+    background-size: 56px 67px;
+}
+.icon-attention {
+    width: 13px;
+    height: 115px;
+    background: url(../png/icon-attention.png) 0 0 no-repeat;
+    background-size: 13px 115px;
+}
+.icon-x {
+    width: 11px;
+    height: 11px;
+    background: url(../png/icon-x.png) 0 0 no-repeat;
+    background-size: 11px 11px;
+}
+.icon-note {
+    width: 25px;
+    height: 34px;
+    background: url(../png/icon-note.png) 0 0 no-repeat;
+}
+.icon-tag {
+    width: 36px;
+    height: 33px;
+    background: url(../png/icon-tag.png) 0 0 no-repeat;
+}
+.icon-map {
+    width: 31px;
+    height: 32px;
+    background: url(../png/icon-map.png) 0 0 no-repeat;
+}
+.icon-send {
+    width: 32px;
+    height: 32px;
+    background: url(../png/icon-send.png) 0 0 no-repeat;
+}
+.icon-checkmark-2 {
+    width: 34px;
+    height: 32px;
+    background: url(../png/icon-checkmark-2.png) 0 0 no-repeat;
+}
+.icon-settings {
+    width: 33px;
+    height: 33px;
+    background: url(../png/icon-settings.png) 0 0 no-repeat;
+}
+.icon-pin {
+    width: 51px;
+    height: 63px;
+    background: url(../png/icon-pin.png) 0 0 no-repeat;
+}
+.icon-clock-2 {
+    width: 59px;
+    height: 66px;
+    background: url(../png/icon-clock-2.png) 0 0 no-repeat;
+}
+.icon-award {
+    width: 64px;
+    height: 65px;
+    background: url(../png/icon-award.png) 0 0 no-repeat;
+}
+.icon-bin {
+    width: 51px;
+    height: 64px;
+    background: url(../png/icon-bin.png) 0 0 no-repeat;
+}
+.icon-add {
+    width: 78px;
+    height: 78px;
+    background: url(../png/icon-add.png) 0 0 no-repeat;
+}
+.icon-lockation {
+    width: 24px;
+    height: 31px;
+    background: url(../png/icon-lockation.png) 0 0 no-repeat;
+}
+.icon-mail {
+    width: 30px;
+    height: 23px;
+    background: url(../png/icon-mail.png) 0 0 no-repeat;
+}
+
+.icon-insta{
+    width: 30px;
+    height: 30px;
+    background: url(../png/instagram.png) 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.icon-insta-black{
+    width: 30px;
+    height: 30px;
+    background: url(../png/instagram-logo.png) 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.icon-arrows-right {
+    width: 69px;
+    height: 71px;
+    background: url(../png/icon-arrows-right.png) 0 0 no-repeat;
+}
+.icon-copin {
+    width: 17px;
+    height: 23px;
+    background: url(../png/copin.png) 0 0 no-repeat;
+}
+.icon-coruler {
+    width: 22px;
+    height: 23px;
+    background: url(../png/coruler.png) 0 0 no-repeat;
+}
+.icon-colayers {
+    width: 25px;
+    height: 21px;
+    background: url(../png/colayers.png) 0 0 no-repeat;
+}
+.icon-coshape-1 {
+    width: 23px;
+    height: 22px;
+    background: url(../png/coshape-1.png) 0 0 no-repeat;
+}
+.icon-codownload {
+    width: 23px;
+    height: 19px;
+    background: url(../png/codownload.png) 0 0 no-repeat;
+}
+.icon-codisplace {
+    width: 23px;
+    height: 23px;
+    background: url(../png/codisplace.png) 0 0 no-repeat;
+}
+.icon-coshape-2 {
+    width: 23px;
+    height: 23px;
+    background: url(../png/coshape-2.png) 0 0 no-repeat;
+}
+.icon-cosun {
+    width: 25px;
+    height: 25px;
+    background: url(../png/cosun.png) 0 0 no-repeat;
+}
+.icon-cono {
+    width: 23px;
+    height: 23px;
+    background: url(../png/cono.png) 0 0 no-repeat;
+}
+.icon-cosettings {
+    width: 21px;
+    height: 21px;
+    background: url(../png/cosettings.png) 0 0 no-repeat;
+}
+.icon-codiamond {
+    width: 24px;
+    height: 21px;
+    background: url(../png/codiamond.png) 0 0 no-repeat;
+}
+.icon-coplay {
+    width: 22px;
+    height: 21px;
+    background: url(../png/coplay.png) 0 0 no-repeat;
+}
+.icon-cocalendar {
+    width: 22px;
+    height: 22px;
+    background: url(../png/cocalendar.png) 0 0 no-repeat;
+}
+

@@ -1,0 +1,110 @@
+/* CONTENT MAIN */
+
+.main-content {
+    position: relative;
+    overflow: hidden;
+}
+.section-w {
+    position: relative;
+}
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px 0;
+    position: relative;
+    z-index: 10;
+}
+.section-wide {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px 0;
+}
+.bg-1 {
+    background: url(../../content/bg/bg-1.jpg) center 0 no-repeat;
+}
+.bg-2 {
+    background: url(../../content/bg/bg-2.jpg) center 0 no-repeat;
+}
+.bg-3 {
+    background: url(../../content/bg/bg-3.jpg) center 0 no-repeat;
+}
+.bg-4 {
+    background: url(../../content/bg/bg-4.jpg) center 0 no-repeat;
+}
+.bg-8 {
+    background-image:  url("../png/bg-8.png"), url("../png/bg-texture-1.png");  
+    background-position: center 0, 0 0;
+    background-repeat: no-repeat, repeat;
+}
+.bg-9 {
+    background-image:  url("../png/content-img-2.png"), url("../png/bg-texture-1.png");  
+    background-position: center 201px, 0 0;
+    background-repeat: no-repeat, repeat;
+}
+.google-map {
+    background: url(../../content/bg/bg-5.jpg) center 0 no-repeat;
+}
+.bg-grey {
+    background-color: #2b2a2f;
+}
+.bg-dark-grey {
+	background-color: #252428;
+}
+.bg-red {
+    background-color: #cc4030;
+}
+.bg-texture-1 {
+    background: url(../png/bg-texture-1.png) 0 0 repeat;
+}
+.fixed-bg-2 {
+    position: absolute;
+    width: 1920px;
+    height: 1314px;
+    top: -710px;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 5;
+}
+.fixed-bg-3 {
+    position: absolute;
+    width: 1920px;
+    height: 169px;
+    top: -201px;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 5;
+}
+.fixed-bg-4 {
+    position: absolute;
+    width: 960px;
+    height: 238px;
+    bottom: 0;
+    right: 50%;
+    z-index: 5;
+}
+.fixed-bg-5 {
+    position: absolute;
+    width: 1920px;
+    height: 50px;
+    top: -1px;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 5;
+}
+.fixed-bg-6 {
+    position: absolute;
+    width: 1920px;
+    height: 170px;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 5;
+}
+
+@media only screen and (max-width: 970px) {
+    .content-main {
+        height: 100%;
+        margin-top: 102px;
+        margin-bottom: 0;
+    }
+}

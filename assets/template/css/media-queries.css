@@ -1,0 +1,399 @@
+@media (max-width: 1090px) {
+    .form-step-3 .radio-col {
+        float: left;
+        margin-right: 40px;
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 1130px) {
+    .stick-header .stick-nav a {
+        margin-right: 10px;
+        font: 300 16px / 53px Ubuntu;
+    }
+}
+.show-960 {
+    display: none;
+}
+.show-960-ib {
+    display: none;
+}
+@media (max-width: 961px) {
+    .title-1 {
+        font: 500 48px / 70px Ubuntu;
+    }
+    .title-3 {
+        text-align: center;
+    }
+    .bg-9 {
+/*        background-image:  url("../png/content-img-5.png"), url("../png/bg-texture-1.png");  */
+        background-image:  url("../png/bg-texture-1.png");  
+        background-position: 0 0;
+        background-repeat: repeat;
+    }
+    .content-img .info .title {
+        margin-bottom: 6px;
+        font: 400 18px / 22px Ubuntu;
+    }
+    .content-img .info .desc {
+        font: 400 14px / 16px Ubuntu;
+    }
+    .content-img .info.info1 {
+        top: 0px;
+        margin-right: 250px;
+        text-align: right;
+    }
+    .content-img .info.info2 {
+        top: 280px;
+        right: 50%;
+        margin-right: 250px;
+        text-align: right;
+    }
+    .content-img .info.info3 {
+        top: 590px;
+        right: 50%;
+        margin-right: 250px;
+        text-align: right;
+    }
+    .content-img .info.info4 {
+        top: 590px;
+        left: 50%;
+        margin-left: 250px;
+        text-align: left;
+    }
+    .content-img .info.info5 {
+        top: 280px;
+        left: 50%;
+        margin-left: 250px;
+        text-align: left;
+    }
+    .content-img .info.info6 {
+        top: 0;
+        left: 50%;
+        margin-left: 250px;
+        text-align: left;
+    }
+    .slide-04 {
+        padding-bottom: 100px;
+    }
+    .slide-04 .frame {
+        text-align: center;
+    }
+    .slide-04 .abs-btn {
+        right: 50%;
+        margin-right: -113px;
+    }
+    .slide-05 .right {
+        margin-left: -360px;
+    }
+    .slide-15 .show-960.btn {
+        padding: 26px 80px;
+        font: 400 24px / 26px Ubuntu;
+        margin: 90px auto 0;
+    }
+    .slide-15 .vertical-icon-row .icon-divider {
+        display: block;
+        padding: 0;
+        margin: 40px 0 40px 93px;
+    }
+    .icon-divider .icon-arrows-right {
+        width: 71px;
+        height: 69px;
+        background: url(../png/icon-arrows-down.png) 0 0 no-repeat;
+    }
+    .slide-15 .vertical-icon-box img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .slide-15 .vertical-icon-box .title {
+        margin: 0;
+        padding-left: 20px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .slide-15 .vertical-icon-box {
+        width: auto;
+    }
+    .slide-15 .vertical-icon-row {
+        text-align: left;
+    }
+    .callback-form .form {
+        width: 56%;
+    }
+    input.input-type-empty,
+    .callback-form .btn {
+        display: block !important;
+        margin-bottom: 40px;
+        width: 100% !important;
+    }
+    .hide-960 {
+        display: none !important;
+    }
+    .show-960 {
+        display: block;
+    }
+    .show-960-ib {
+        display: inline-block;
+    }
+    .slide-09 {
+        height: auto;
+    }
+    .callback-form.bg-4 {
+        height: auto;
+    }
+    .callback-form.bg-8 {
+        height: auto;
+    }
+    .bg-2 {
+        background-size: cover;
+    }
+    .bg-3 {
+        background-size: cover;
+    }
+    .bg-4 {
+        background-size: cover;
+    }
+    .bg-8 {
+        background-size: cover;
+    }
+    .map-info-container {
+        width: 550px;
+        right: 50%;
+        margin-right: -275px;
+        text-align: center;
+    }
+    .map-info-container .phones {
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .map-info-container .btn {
+        width: auto;
+        padding: 26px 80px;
+        font: 400 24px / 26px Ubuntu;
+        margin: 0 auto 25px;
+    }
+    .map-info-container .left {
+        display: inline-block;
+        padding-right: 30px;
+        vertical-align: top;
+    }
+    .map-info-container .right {
+        display: inline-block;
+        padding-top: 8px;
+        vertical-align: top;
+    }
+    .footer-main .left {
+        display: block;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .footer-main .center {
+        display: block;
+    }
+    .footer-main .center .btn {
+        width: 430px;
+        padding: 26px 0;
+        font: 400 24px / 26px Ubuntu;
+        margin-left: -215px;
+        left: 50%;
+        bottom: 0;
+    }  
+    .footer-main .copy {
+        text-align: center;
+    }
+    .footer-main .copy .to-left,
+    .footer-main .copy .to-right {
+        float: none;
+        font: 500 24px / 62px Ubuntu;
+    }
+}
+.show-640 {
+    display: none;
+}
+.show-640-ib {
+    display: none;
+}
+@media (max-width: 641px) {
+    .form-step-1 .select-inline {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .form-step-2 .radio-row .title {
+        width: 160px;
+    }
+    input[type="radio"].circle-bg {
+        margin: 0 10px 0 0;
+    }
+    .color-slide h3, h4{
+        font-size: 25px;
+    }
+/*
+    .slide-09 {
+        height: auto;
+    }
+    .callback-form.bg-4 {
+        height: auto;
+    }
+    .callback-form.bg-8 {
+        height: auto;
+    }
+    .bg-2 {
+        background-size: cover;
+    }
+    .bg-3 {
+        background-size: cover;
+    }
+    .bg-4 {
+        background-size: cover;
+    }
+    .bg-8 {
+        background-size: cover;
+    }
+*/
+    .slide-10 .mini-title-1 {
+        text-align: center;
+    }
+    .slide-13 .title-3 {
+        text-align: left;
+    }
+/*
+    .map-info-container {
+        width: 550px;
+        right: 50%;
+        margin-right: -275px;
+        text-align: center;
+    }
+    .map-info-container .phones {
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .map-info-container .btn {
+        width: auto;
+        padding: 26px 80px;
+        font: 400 24px / 26px Ubuntu;
+        margin: 0 auto 25px;
+    }
+    .map-info-container .left {
+        display: inline-block;
+        padding-right: 30px;
+        vertical-align: top;
+    }
+    .map-info-container .right {
+        display: inline-block;
+        padding-top: 8px;
+        vertical-align: top;
+    }
+    .footer-main .left {
+        display: block;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .footer-main .center {
+        display: block;
+    }
+    .footer-main .center .btn {
+        width: 430px;
+        padding: 26px 0;
+        font: 400 24px / 26px Ubuntu;
+        margin-left: -215px;
+        left: 50%;
+        bottom: 0;
+    }  
+    .footer-main .copy {
+        text-align: center;
+    }
+    .footer-main .copy .to-left,
+    .footer-main .copy .to-right {
+        float: none;
+        font: 500 24px / 62px Ubuntu;
+    }
+*/
+    .hide-640 {
+        display: none !important;
+    }
+    .show-640 {
+        display: block;
+    }
+    .show-640-ib {
+        display: inline-block;
+    }
+}
+
+/*============= upgrade 07.09.2016 ================*/
+
+@media (max-width: 976px){
+	.slide-05 .content{
+		margin-top: 50px;
+	}
+	.slide-05 .left, .slide-05 .right{
+		display: block;
+		margin: 0 auto 25px;
+		padding-top: 130px;
+		width: 490px;
+		background-size: cover;
+		background-position: top center;
+	}
+	.slide-05 .left .title, .slide-05 .right .title{
+		margin-top: 20px;
+	}
+	.complect-price{
+		right: auto;
+		left: 50%;
+		top: 54px;
+		 transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    -o-transform: translateX(-50%);
+	    -webkit-transform: translateX(-50%);	   
+	}
+	
+	.slide-08 .complect-price{
+		top: 42px;
+	}
+	.form-step-2 .form-title-1{
+		padding-bottom: 80px;
+	}
+	.slide-10 .mini-title-1{
+		text-align: center;
+	}
+}
+
+@media (max-width: 970px){
+	.bg-1{
+		background-size: auto 1300px;
+	}
+	
+}
+
+@media (max-width: 961px){
+	.stick-header .callback{
+		float: right;
+		margin-right: 10px;
+	}
+	.map-info-container{
+		height: 476px;
+		top: 40px;
+	}
+	.portfolio-slide .slide-content{
+		display: inline-block;
+	}
+}
+
+
+@media (max-width: 760px) {
+    .cover-info{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .map-info-container{
+        height: 100%;
+        top: 0;
+    }
+
+    .map-info-container .left{
+        display: block;
+        padding-right: 0;
+    }
+    .map-info-container .right{
+        display: block;
+    }
+}
