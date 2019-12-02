@@ -1,5 +1,6 @@
+@import "../fonts/Gillroy/stylesheet.css";
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Gilroy!important;
 }
 
 body{
@@ -13,7 +14,7 @@ html {
                    font-size: 100%;
 }
 body {
-    font-family: "Ubuntu", sans-serif;
+    font-family: Gilroy;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2em;
@@ -49,7 +50,7 @@ input
     outline: none;
 }
 .title-3 {
-    font: 500 36px / 42px Ubuntu;
+    font-size: 36px;
     text-transform: uppercase;
 }
 
@@ -88,7 +89,7 @@ input
 }
 .stick-header .stick-nav a {
     margin-right: 40px;
-    font: 300 18px / 53px Ubuntu;
+    font: 300 18px / 53px Gillroy;
     color: #2a292e;
 }
 .stick-header .stick-nav a:hover {
@@ -124,7 +125,7 @@ input
 	float: right;
 }
 .header-main .phones .tel {
-	font: 300 18px / 25px Ubuntu;
+	font: 300 18px / 25px Gillroy;
 }
 .header-main .callback, .stick-header .callback {
 	float: right;
@@ -135,17 +136,17 @@ input
 }
 .main-nav a {
     padding-left: 36px;
-	font: 300 18px / 18px Ubuntu;
+	font: 300 18px / 18px Gillroy;
 }
 .title-1 h2{
     margin-top: 0px;
-    font: 500 48px / 74px Ubuntu;
+    font: 500 48px / 74px Gillroy;
     text-transform: uppercase;
     text-align: center;
 }
 .title-2 h3{
     margin-top: 35px;
-    font: 500 24px / 32px Ubuntu;
+    font: 500 24px / 32px Gillroy;
     color: #db4938;
     text-transform: uppercase;
     text-align: center;
@@ -178,7 +179,7 @@ input
     text-align: center;
 }
 .callback-form .info {
-    font: 300 20px / 26px Ubuntu;
+    font: 300 20px / 26px Gillroy;
     text-align: center;
     margin-top: 20px;
     margin-bottom: -10px;
@@ -191,7 +192,7 @@ input
 }
 .thanks-box {
     display: none;
-    font: 300 20px / 112px Ubuntu;
+    font: 300 20px / 112px Gillroy;
     text-align: center;
 }
 .submitted + .thanks-box {
@@ -243,11 +244,11 @@ input
 }
 .content-img .info .title {
     margin-bottom: 12px;
-	font: 400 22px / 28px Ubuntu;
+	font: 400 22px / 28px Gillroy;
     color: #2a292e;
 }
 .content-img .info .desc {
-	font: 400 16px / 20px Ubuntu;
+	font: 400 16px / 20px Gillroy;
     color: #2a292e;
 }
 .content-img .info.info1 {
@@ -292,11 +293,11 @@ input
 .icon-vertical-box .title {
     margin-top: 15px;
     margin-bottom: 15px;
-    font: 400 28px / 34px Ubuntu;
+    font: 400 28px / 34px Gillroy;
     color: #2a292e;
 }
 .icon-vertical-box .desc {
-    font: 400 22px / 28px Ubuntu;
+    font: 400 22px / 28px Gillroy;
     color: #2a292e;
 }
 
@@ -320,7 +321,7 @@ input
 }
 .slide-04 .content p {
     margin-bottom: 18px;
-    font: 300 22px / 30px Ubuntu;
+    font: 300 22px / 30px Gillroy;
 }
 .slide-04 .frame {
     position: relative;
@@ -369,7 +370,7 @@ input
 .slide-05 .left .title {
     margin-top: 155px;
     margin-bottom: 22px;
-    font: 400 22px / 28px Ubuntu;
+    font: 400 22px / 28px Gillroy;
     color: #ededed;
     text-align: left;
 }
@@ -378,7 +379,7 @@ input
 }
 .slide-05 .left .text-cell {
     padding-bottom: 16px;
-    font: 400 16px / 22px Ubuntu;
+    font: 400 16px / 22px Gillroy;
     color: #ededed;
     text-align: left;
 }
@@ -395,7 +396,7 @@ input
 .slide-05 .right .title {
     margin-top: 128px;
     margin-bottom: 24px;
-    font: 400 32px / 28px Ubuntu;
+    font: 400 32px / 28px Gillroy;
     color: #ffffff;
     text-align: left;
 }
@@ -403,7 +404,7 @@ input
     padding-top: 10px;
     padding-left: 25px;
     padding-bottom: 10px;
-    font: 400 16px / 22px Ubuntu;
+    font: 400 16px / 22px Gillroy;
     color: #ededed;
     text-align: left;
 }
@@ -440,12 +441,12 @@ input
     margin: 0 auto 15px auto;
 }
 .catalog-slider .slide-content .title {
-    font: 400 22px / 28px Ubuntu;
+    font: 400 22px / 28px Gillroy;
     color: #2a292e;
 }
 .catalog-slider .slide-content .cost {
     margin-top: 10px;
-    font: 700 22px / 28px Ubuntu; 
+    font: 700 22px / 28px Gillroy; 
     color: #db4938;
 }
 .catalog-slider .slide-content .btn {
@@ -476,7 +477,7 @@ input
 	margin-top: 75px;
 }
 .form-step-1 .form-title-1 {
-    font: 400 22px / 28px Ubuntu;
+    font: 400 22px / 28px Gillroy;
 	margin-bottom: 35px;
 }
 .form-step-1 .select-inline {
@@ -497,7 +498,7 @@ input
     z-index: 0;
 }
 .form-step-2 .form-title-1 {
-    font: 400 22px / 28px Ubuntu;
+    font: 400 22px / 28px Gillroy;
     padding-bottom: 50px;
 }
 .form-step-2 .radio-row {
@@ -506,7 +507,7 @@ input
 .form-step-2 .radio-row .title {
     float: left;
     width: 238px;
-    font: 400 16px / 46px Ubuntu;
+    font: 400 16px / 46px Gillroy;
 }
 .form-step-2 .radio-row .radio-buttons {
     float: left;
@@ -516,7 +517,7 @@ input
     line-height: 46px;
 }
 .form-step-2 .radio-row .sett span {
-    font: 400 16px / 18px Ubuntu;
+    font: 400 16px / 18px Gillroy;
     color: #db4938;
     cursor: pointer;
     border-bottom: 1px dashed #db4938;
@@ -619,7 +620,7 @@ input
     padding-bottom: 123px;
 }
 .form-step-3 .form-title-1 {
-    font: 400 22px / 28px Ubuntu;
+    font: 400 22px / 28px Gillroy;
     padding-bottom: 50px;
 }
 .form-step-3 .radio-row {
@@ -636,27 +637,27 @@ input
 .form-step-3 .radio-col label {
     display: inline-block;
     margin-right: 30px;
-    font: 400 16px / 17px Ubuntu;
+    font: 400 16px / 17px Gillroy;
     vertical-align: middle;
 }
 .form-step-3 .radio-col .title {
     margin-bottom: 20px;
-    font: 400 16px / 16px Ubuntu;
+    font: 400 16px / 16px Gillroy;
 }
 .form-step-3 .cost {
 /*    margin-top: 72px;*/
 }
 .form-step-3 .cost .white {
-    font: 400 38px / 40px Ubuntu;
+    font: 400 38px / 40px Gillroy;
 }
 .form-step-3 .cost .red {
-    font: 400 38px / 40px Ubuntu;
+    font: 400 38px / 40px Gillroy;
     color: #db4938;
 }
 .form-step-3 .info {
     margin-top: 12px;
     margin-bottom: 45px;
-    font: 400 18px / 20px Ubuntu;
+    font: 400 18px / 20px Gillroy;
 }
 
 /* SLIDE 10 */
@@ -667,7 +668,7 @@ input
 }
 .slide-10 .mini-title-1 {
     margin-top: 5px;
-    font: 500 22px / 42px Ubuntu;
+    font: 500 22px / 42px Gillroy;
 }
 .slide-10 .content {
     margin-top: 40px;
@@ -776,7 +777,7 @@ input
 }
 .slide-13 .action {
     margin-top: 25px;
-    font: 500 38px / 42px Ubuntu;
+    font: 500 38px / 42px Gillroy;
     text-transform: uppercase;
 }
 .slide-13 .action .grey {
@@ -784,7 +785,7 @@ input
 }
 .slide-13 .desc {
     margin-top: 37px;
-    font: 400 18px / 24px Ubuntu;
+    font: 400 18px / 24px Gillroy;
 }
 .slide-13 form {
     width: 285px;
@@ -848,7 +849,7 @@ input
 }
 .slide-15 .title-4 {
 	margin-bottom: 70px;
-    font: 300 22px / 30px Ubuntu;
+    font: 300 22px / 30px Gillroy;
     text-align: center;
 }
 .slide-15 .vertical-icon-row {
@@ -868,7 +869,7 @@ input
 }
 .slide-15 .vertical-icon-box .title{
     margin: 22px auto 24px auto;
-    font: 300 22px / 26px Ubuntu;
+    font: 300 22px / 26px Gillroy;
 }
 
 /* SLIDE 16 */
@@ -904,7 +905,7 @@ input
 .map-info-container .title {
     margin-top: 4px;
     margin-bottom: 6px;
-    font: 400 18px / 24px Ubuntu;
+    font: 400 18px / 24px Gillroy;
     color: #2a292e;
 }
 .map-info-container .phones {
@@ -915,11 +916,11 @@ input
     margin-bottom: 17px;
 }
 .map-info-container .phones .tel {
-    font: 400 18px / 24px Ubuntu;
+    font: 400 18px / 24px Gillroy;
 }
 .map-info-container .text {
     margin-bottom: 14px;
-    font: 400 18px / 24px Ubuntu;
+    font: 400 18px / 24px Gillroy;
 }
 
 /* SLIDER  */
@@ -994,7 +995,7 @@ input
 .footer-main .left {
 	display: inline-block;
     padding-right: 45px;
-    font: 500 52px / 60px Ubuntu;
+    font: 500 52px / 60px Gillroy;
     color: #2a292e;
     vertical-align: middle;
     text-transform: uppercase;
@@ -1015,7 +1016,7 @@ input
 .footer-main .right {
 	display: inline-block;
     padding-left: 45px;
-    font: 500 52px / 60px Ubuntu;
+    font: 500 52px / 60px Gillroy;
     color: #2a292e;
     vertical-align: middle;
     text-transform: uppercase;
@@ -1027,7 +1028,7 @@ input
 }
 .footer-main .copy .to-left,
 .footer-main .copy .to-right {
-    font: 500 14px / 18px Ubuntu;
+    font-size: 14px;
     color: #2a292e;
 }
 .footer-main .copy a {
@@ -1084,7 +1085,7 @@ input
 }
 .popup .title {
     margin-bottom: 40px;
-	font: 400 20px / 26px Ubuntu;
+	font-size: 20px;
     color: #2a292e;
     text-align: center;
 }
@@ -1178,7 +1179,7 @@ input
 
 /*.cover-info .cover-info-thanks-box {
     display: none;
-    font: 400 18px / 25px Ubuntu;
+    font: 400 18px / 25px Gillroy;
     color: #2a292e;
 }
 .cover-info-form-box {
@@ -1192,12 +1193,12 @@ input
 }
 .cover-info-form-box .title {
     margin-bottom: 23px;
-    font: 700 32px / 32px Ubuntu;
+    font: 700 32px / 32px Gillroy;
     color: #2a292e;
 }
 .cover-info-form-box .cover-cost {
     margin-bottom: 38px;
-    font: 700 22px / 22px Ubuntu;
+    font: 700 22px / 22px Gillroy;
     color: #db4938;
 }*/
 .bullets .bullet-title {
@@ -1209,22 +1210,23 @@ input
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 18px;
-    font: 700 14px / 18px Ubuntu;
+    font-size: 14px;
     color: #2a292e;
 }
 .bullets .bullet-value {
-    font: 400 14px / 18px Ubuntu;
+    font-size: 14px;
     color: #2a292e;
 }
 ./*cover-info-form-box .desc {
     margin-top: 60px;
     margin-bottom: 20px;       
-    font: 400 16px / 22px Ubuntu;
+    font: 400 16px / 22px Gillroy;
     color: #2a292e;
 }
 .cover-info-form-box .cover-colours {
     margin-top: 20px;   
 }*/
+
 .cover-colours input[type="radio"].circle-bg {
     width: 41px;
     height: 41px;
@@ -1503,7 +1505,90 @@ ul.dropdownvisible {
 	justify-content: space-around;
 	align-items: center;
 }
-
+.gallery-up .swiper-slide img,
+.gallery-up-two .swiper-slide img,
+.gallery-up-three .swiper-slide img,
+.gallery-up-four .swiper-slide img {
+    height: 100%;
+}
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-container.gallery-up,
+.swiper-container.gallery-up-two,
+.swiper-container.gallery-up-three,
+.swiper-container.gallery-up-four {
+    height: 400px;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E")!important;
+    right: 10px;
+    left: auto;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E")!important;
+    left: 10px;
+    right: auto;
+}
+.catalog-black {
+    background: #f0f0f0;
+}
+.catalog-black .title-3 {
+    margin-bottom: 30px;
+}
+.show-catalog {
+    display: flex;
+}
+.color-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.color-items img {
+    border-radius: 100%;
+    margin: 10px 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+.color-items img.active {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);
+    transform: scale(1.2);
+}
+.info-area {
+    margin: 0 50px;
+}
+.about-case__item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.info-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.select-сolor {
+    padding: 10px 0;
+    margin: 20px 0;
+    border-top: 1px solid #2a292e;
+    border-bottom: 1px solid #2a292e;
+}
+.do-order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.do-order .price {
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 24px;
+}
+.display-area img {
+    width: 100%;
+    min-width: 560px;
+}
 @media (max-width: 961px){
 	.wrap_menu{
 		display: none;

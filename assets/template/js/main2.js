@@ -16,31 +16,31 @@ jQuery(function(e) {
         }), e("#text_btn").click(function() {
             console.log(e("#t_i_1").val()), console.log(e("#t_i_2").val())
         });
-        new Swiper(".swiper-container", {
-            slidesPerView: 3,
-            spaceBetween: 20,
-            slidesPerGroup: 3,
-            loop: !0,
-            loopFillGroupWithBlank: !0,
-            breakpoints: {
-                500: {
-                    slidesPerView: 1,
-                    slidesPerGroup: 1
-                },
-                400: {
-                    slidesPerView: 1,
-                    slidesPerGroup: 1
-                },
-                640: {
-                    slidesPerView: 1,
-                    slidesPerGroup: 1
-                }
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev"
-            }
-        });
+        // new Swiper(".swiper-container", {
+        //     slidesPerView: 3,
+        //     spaceBetween: 20,
+        //     slidesPerGroup: 3,
+        //     loop: !0,
+        //     loopFillGroupWithBlank: !0,
+        //     breakpoints: {
+        //         500: {
+        //             slidesPerView: 1,
+        //             slidesPerGroup: 1
+        //         },
+        //         400: {
+        //             slidesPerView: 1,
+        //             slidesPerGroup: 1
+        //         },
+        //         640: {
+        //             slidesPerView: 1,
+        //             slidesPerGroup: 1
+        //         }
+        //     },
+        //     navigation: {
+        //         nextEl: ".swiper-button-next",
+        //         prevEl: ".swiper-button-prev"
+        //     }
+        // });
         e(".cover-info-overlay").hide(), e("#slider_1").hide(), e("#slider_2").hide(), e("#slider_3").hide(), e("#slider_4").hide(), e("#slider_5").hide(), e("#slider_6").hide(), e("#slider_7").hide(), e("#slider_8").hide();
         let i = {
             Audi: ["80", "100", "A1", "A2", "A3", "A4", "A5", "A6", "Q3", "Q5"],
@@ -158,4 +158,122 @@ jQuery(function(e) {
             scrollTop: r
         }, 1500)
     })
+    
 });
+
+$('.color-items img').click(function() {
+    $('.color-items img.active').removeClass('active');
+    $(this).addClass('active');
+})
+/*Catalog leather */
+$('.lather-line .bej').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/7-650x650.jpg");
+});
+$('.lather-line .bel').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/12-650x650.jpg");
+});
+$('.lather-line .belcher').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/belo-chernie-650x650.jpg");
+});
+$('.lather-line .cher').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/1-650x650.jpg");
+});
+$('.lather-line .cherbej').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/3-650x650.jpg");
+});
+$('.lather-line .cherbel').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/4-650x650.jpg");
+});
+$('.lather-line .cherkor').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/10-650x650.jpg");
+});
+$('.lather-line .cherkrasn').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/5-650x650.jpg");
+});
+$('.lather-line .chershok').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/8-650x650.jpg");
+});
+$('.lather-line .cherser').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/cherno-serie-650x650.jpg");
+});
+$('.lather-line .chersin').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/9-650x650.jpg");
+});
+$('.lather-line .chertser').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/cherno-tserie-650x650.jpg");
+});
+$('.lather-line .kor').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/11-650x650.jpg");
+});
+$('.lather-line .shok').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/shokoladnie-650x650.jpg");
+});
+$('.lather-line .ser').click(function(){
+    $('.lather-line .display-area img').attr("src" , "./assets/content/products/lather-line/6-650x650.jpg");
+});
+/******************************/
+/*Catalog leather romb*/
+$('.lather-romb .belcher').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombbelcher-650x650.jpg");
+});
+$('.lather-romb .cherbej').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombcherbej-650x650.jpg");
+});
+$('.lather-romb .bel').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombbel-650x650.jpg");
+});
+$('.lather-romb .shok').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombshoko-650x650.jpg");
+});
+$('.lather-romb .chersin').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombchersin-650x650.jpg");
+});
+$('.lather-romb .ser').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombser-650x650.jpg");
+});
+$('.lather-romb .chershok').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombchershok-650x650.jpg");
+});
+$('.lather-romb .tser').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/temnoseriyromb-650x650.jpg");
+});
+$('.lather-romb .chertser').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombchertser-650x650.jpg");
+});
+$('.lather-romb .chertbej').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombcherbej-650x650.jpg");
+});
+$('.lather-romb .tkorich').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombtkorich-650x650.jpg");
+});
+$('.lather-romb .cher').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombcherniy-650x650.jpg");
+});
+$('.lather-romb .cherbel').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombcherbel-650x650.jpg");
+});
+$('.lather-romb .cherser').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombcherser-650x650.jpg");
+});
+$('.lather-romb .chertkorich').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombchertkorich-650x650.jpg");
+});
+$('.lather-romb .cherkor').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombcherkorich-650x650.jpg");
+});
+$('.lather-romb .cherkrasn').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombcherkras-650x650.jpg");
+});
+$('.lather-romb .tbej').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombtbej-650x650.jpg");
+});
+$('.lather-romb .bej').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombbej-650x650.jpg");
+});
+$('.lather-romb .sercher').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombsercher-650x650.jpg");
+});
+$('.lather-romb .kor').click(function(){
+    $('.lather-romb .display-area img').attr("src" , "./assets/content/products/lather-romb/rombkorich-650x650.jpg");
+});
+/********************************************/
