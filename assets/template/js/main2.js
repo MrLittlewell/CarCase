@@ -167,187 +167,206 @@ $('.color-items img').click(function () {
 })
 /*Catalog leather */
 $('.lather-line .bej').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/7-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/7-650x650.png");
 });
 $('.lather-line .bel').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/12-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/12-650x650.png");
 });
 $('.lather-line .belcher').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/belo-chernie-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/belo-chernie-650x650.png");
 });
 $('.lather-line .cher').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/1-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/1-650x650.png");
 });
 $('.lather-line .cherbej').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/3-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/3-650x650.png");
 });
 $('.lather-line .cherbel').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/4-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/4-650x650.png");
 });
 $('.lather-line .cherkor').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/10-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/10-650x650.png");
 });
 $('.lather-line .cherkrasn').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/5-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/5-650x650.png");
 });
 $('.lather-line .chershok').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/8-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/8-650x650.png");
 });
 $('.lather-line .cherser').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/cherno-serie-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/cherno-serie-650x650.png");
 });
 $('.lather-line .chersin').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/9-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/9-650x650.png");
 });
 $('.lather-line .chertser').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/cherno-tserie-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/cherno-tserie-650x650.png");
 });
 $('.lather-line .kor').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/11-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/11-650x650.png");
 });
 $('.lather-line .shok').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/shokoladnie-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/shokoladnie-650x650.png");
 });
 $('.lather-line .ser').click(function () {
-  $('.lather-line .display-area img').attr("src", "./assets/content/products/lather-line/6-650x650.png");
+  $('.lather-line .display-area>img').attr("src", "./assets/content/products/lather-line/6-650x650.png");
 });
 /******************************/
 /*Catalog leather romb*/
 $('.lather-romb .belcher').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombbelcher-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombbelcher-650x650.png");
 });
 $('.lather-romb .cherbej').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombcherbej-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombcherbej-650x650.png");
 });
 $('.lather-romb .bel').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombbel-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombbel-650x650.png");
 });
 $('.lather-romb .shok').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombshoko-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombshoko-650x650.png");
 });
 $('.lather-romb .chersin').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombchersin-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombchersin-650x650.png");
 });
 $('.lather-romb .ser').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombser-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombser-650x650.png");
 });
 $('.lather-romb .chershok').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombchershok-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombchershok-650x650.png");
 });
 $('.lather-romb .tser').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/temnoseriyromb-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/temnoseriyromb-650x650.png");
 });
 $('.lather-romb .chertser').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombchertser-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombchertser-650x650.png");
 });
 $('.lather-romb .chertbej').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombcherbej-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombcherbej-650x650.png");
 });
 $('.lather-romb .tkorich').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombtkorich-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombtkorich-650x650.png");
 });
 $('.lather-romb .cher').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombcherniy-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombcherniy-650x650.png");
 });
 $('.lather-romb .cherbel').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombcherbel-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombcherbel-650x650.png");
 });
 $('.lather-romb .cherser').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombcherser-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombcherser-650x650.png");
 });
 $('.lather-romb .chertkorich').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombchertkorich-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombchertkorich-650x650.png");
 });
 $('.lather-romb .cherkor').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombcherkorich-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombcherkorich-650x650.png");
 });
 $('.lather-romb .cherkrasn').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombcherkras-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombcherkras-650x650.png");
 });
 $('.lather-romb .tbej').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombtbej-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombtbej-650x650.png");
 });
 $('.lather-romb .bej').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombbej-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombbej-650x650.png");
 });
 $('.lather-romb .sercher').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombsercher-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombsercher-650x650.png");
 });
 $('.lather-romb .kor').click(function () {
-  $('.lather-romb .display-area img').attr("src", "./assets/content/products/lather-romb/rombkorich-650x650.png");
+  $('.lather-romb .display-area>img').attr("src", "./assets/content/products/lather-romb/rombkorich-650x650.png");
 });
 /********************************************/
 /* Alkantara line */
 $('.alkantara-line .chersin').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkachersin-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkachersin-650x650.png");
 });
 $('.alkantara-line .cherkor').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkacherkorich-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkacherkorich-650x650.png");
 });
 $('.alkantara-line .kor').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkakorich-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkakorich-650x650.png");
 });
 $('.alkantara-line .shok').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkashoko-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkashoko-650x650.png");
 });
 $('.alkantara-line .chertser').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkachertemser-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkachertemser-650x650.png");
 });
 $('.alkantara-line .tbej').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkachertbej-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkachertbej-650x650.png");
 });
 $('.alkantara-line .chershok').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkachershoko-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkachershoko-650x650.png");
 });
 $('.alkantara-line .bej').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkabej-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkabej-650x650.png");
 });
 $('.alkantara-line .cherbej').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkacherbej-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkacherbej-650x650.png");
 });
 $('.alkantara-line .cherkrasn').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkacherkras-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkacherkras-650x650.png");
 });
 $('.alkantara-line .cher').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkacher-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkacher-650x650.png");
 });
 $('.alkantara-line .cherser').click(function () {
-  $('.alkantara-line .display-area img').attr("src", "./assets/content/products/alkantara-line/alkacherser-650x650.png");
+  $('.alkantara-line .display-area>img').attr("src", "./assets/content/products/alkantara-line/alkacherser-650x650.png");
 });
 
 /********************************************/
 /* Alkantara Romb */
 $('.alkantara-romb .cher').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/cherniyrombalka-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/cherniyrombalka-650x650.png");
 });
 $('.alkantara-romb .chertser').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/cherniytsrombalka-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/cherniytsrombalka-650x650.png");
 });
 $('.alkantara-romb .cherkrasn').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/cherniykrasrombalka-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/cherniykrasrombalka-650x650.png");
 });
 $('.alkantara-romb .shok').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/rombchershok-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/rombchershok-650x650.png");
 });
 $('.alkantara-romb .chersin').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/cherniysinrombalka-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/cherniysinrombalka-650x650.png");
 });
 $('.alkantara-romb .cherkor').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/cherniykorrombalka-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/cherniykorrombalka-650x650.png");
 });
 $('.alkantara-romb .kor').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/korrombalka-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/korrombalka-650x650.png");
 });
 $('.alkantara-romb .bej').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/bejeviyrombalka-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/bejeviyrombalka-650x650.png");
 });
 $('.alkantara-romb .cherser').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/cherniysrombalka-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/cherniysrombalka-650x650.png");
 });
 $('.alkantara-romb .cherbej').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/cherniybejrombalka-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/cherniybejrombalka-650x650.png");
 });
 $('.alkantara-romb .chertkor').click(function () {
-  $('.alkantara-romb .display-area img').attr("src", "./assets/content/products/alkantara-romb/cherniytkorrombalka-650x650.png");
+  $('.alkantara-romb .display-area>img').attr("src", "./assets/content/products/alkantara-romb/cherniytkorrombalka-650x650.png");
 });
 /********************************************/
+$('.ready__items img').click(function () {
+  let src = $(this).attr('src');
+  $('.alkantara-romb .display-area>img').attr("src", src);
+})
+
+$('.ready__items img').click(function () {
+  let src = $(this).attr('src');
+  $('.alkantara-line .display-area>img').attr("src", src);
+})
+
+$('.ready__items img').click(function () {
+  let src = $(this).attr('src');
+  $('.lather-romb .display-area>img').attr("src", src);
+})
+
+$('.ready__items img').click(function () {
+  let src = $(this).attr('src');
+  $('.lather-line .display-area>img').attr("src", src);
+})
